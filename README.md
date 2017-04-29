@@ -14,7 +14,7 @@ RPG Maker MV Plugin - HTN_CloseOptionsWindow
 
 ## プラグイン説明
 
-![スクリーンショット](./img/screenshot01.png)
+<img src="./img/screenshot01.png" alt="スクリーンショット" width="350rem" height="auto">
 
 こんなふうに、一番下に「Close」という選択肢が足されます。  
 「Close」以外の好きな言葉にプラグイン管理画面から変えられますので、作成しているゲームの雰囲気に合わせた言葉にしてくださいね。

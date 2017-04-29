@@ -18,10 +18,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // This software is released under the MIT License.
 // http://opensource.org/licenses/mit-license.php
 //
-// 2016/04/30 ver0.1.2 より正確な表記に
-// 2016/04/30 ver0.1.1 SceneManager.pop() でなく processCancel メソッドを
-// 2016/04/30 ver0.1.0 ひとまずの完成
-// 2016/04/29 ver0.0.1 開発開始
+// 2017/04/30 ver0.1.2 より正確な表記に
+// 2017/04/30 ver0.1.1 SceneManager.pop() でなく processCancel メソッドを
+// 2017/04/30 ver0.1.0 ひとまずの完成
+// 2017/04/29 ver0.0.1 開発開始
 //
 // --------------------------------------------------------------------------
 /*:

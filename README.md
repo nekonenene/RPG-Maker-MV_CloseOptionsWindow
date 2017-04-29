@@ -1,12 +1,12 @@
-# RPGツクールMV用プラグイン : タイトル画面の「オプション」を閉じる選択肢を追加
+# RPGツクールMV用プラグイン : 「オプション」を閉じる選択肢を追加
 
-RPG Maker MV Plugin - HTN_CloseOptionsWindow
+RPG Maker MV Plugin - HTN_CloseOptionsWindowCommand
 
 ## ダウンロード
 
-**[ここを右クリックして「名前を付けてリンク先を保存」みたいな項目を選んでダウンロード](https://raw.githubusercontent.com/nekonenene/RPG-Maker-MV_CloseOptionsWindow/master/HTN_CloseOptionsWindow.js)**
+**[ここを右クリックして「名前を付けてリンク先を保存」みたいな項目を選んでダウンロード](https://raw.githubusercontent.com/nekonenene/RPG-Maker-MV_CloseOptionsWindowCommand/master/HTN_CloseOptionsWindowCommand.js)**
 
-ダウンロードした `HTN_CloseOptionsWindow.js` を `js/plugins` フォルダーの中に入れてください。
+ダウンロードした `HTN_CloseOptionsWindowCommand.js` を `js/plugins` フォルダーの中に入れてください。
 
 プラグインの導入方法について詳しくは、ツクール公式サイトの講座ページをご覧ください！ ↓  
 [RPGツクールMV 初心者講座 プラグイン編](https://tkool.jp/mv/guide/011_001.html)

@@ -18,6 +18,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // This software is released under the MIT License.
 // http://opensource.org/licenses/mit-license.php
 //
+// 2016/04/30 ver0.1.1 SceneManager.pop() でなく processCancel メソッドを
 // 2016/04/30 ver0.1.0 ひとまずの完成
 // 2016/04/29 ver0.0.1 開発開始
 //
@@ -79,7 +80,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
       key: "processOk",
       value: function processOk() {
         if (this.commandSymbol(this.index()) === closeCommandSymbol) {
-          SceneManager.pop();
+          this.processCancel();
         } else {
           _get(Window_Options_addCloseCommand.prototype.__proto__ || Object.getPrototypeOf(Window_Options_addCloseCommand.prototype), "processOk", this).call(this);
         }

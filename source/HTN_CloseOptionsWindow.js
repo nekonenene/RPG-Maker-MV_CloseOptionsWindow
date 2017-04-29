@@ -6,6 +6,7 @@
 // This software is released under the MIT License.
 // http://opensource.org/licenses/mit-license.php
 //
+// 2016/04/30 ver0.1.1 SceneManager.pop() でなく processCancel メソッドを
 // 2016/04/30 ver0.1.0 ひとまずの完成
 // 2016/04/29 ver0.0.1 開発開始
 //
@@ -42,29 +43,29 @@
 		constructor() {
 			super();
 		}
-		
+
 		makeCommandList() {
 			super.makeCommandList();
-			
+
 			if (isOnlyMoblileMode && !Utils.isMobileDevice()) {
 				// Only Moblile が YES で、携帯端末でない場合は選択肢の表示なし
 			} else {
 				this.addCloseCommand();
 			}
 		}
-		
+
 		addCloseCommand() {
 			this.addCommand(closeCommandName, closeCommandSymbol, true);
 		}
-		
+
 		processOk() {
 			if (this.commandSymbol(this.index()) === closeCommandSymbol) {
-				SceneManager.pop();
+				this.processCancel();
 			} else {
 				super.processOk();
 			}
 		}
-		
+
 		// ON・OFFが右側に表示されないように
 		statusText(index) {
 			if (this.commandSymbol(index) === closeCommandSymbol) {
@@ -74,7 +75,7 @@
 			}
 		}
 	}
-	
+
 	Window_Options = Window_Options_addCloseCommand;
 
 })();
